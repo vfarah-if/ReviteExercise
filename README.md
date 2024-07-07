@@ -57,6 +57,58 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
   }
   ```
 
-  ### Final Thoughts
+  
+
+  ## Testing with Jest
+
+  **Test-Driven Development** (TDD) is a software development approach that involves writing tests before writing the actual code. This methodology offers several advantages, which can significantly enhance the quality and maintainability of software. By prioritising testing and design upfront, TDD helps developers produce better code, reduce defects, and maintain a high level of productivity. Adopting TDD can lead to significant long-term benefits, making it a valuable practice for any development team.
+
+  ### Step-by-Step Guide
+
+- **Install Jest and Related Packages:** Open your terminal in the project directory and run the following command to install Jest, along with TypeScript support and other necessary packages: `yarn add --dev jest @types/jest ts-jest`
+
+- **Configure Jest:** Create a `jest.config.js` file in the root of your project with the following content:
+
+  ```javascript
+  module.exports = {
+      preset: 'ts-jest',
+      testEnvironment: 'node',
+      moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+      transform: {
+          '^.+\\.tsx?$': 'ts-jest',
+      },
+      testMatch: ['**/*.test.ts'],
+  };
+  
+  ```
+
+- Optional: Configure ESLint for Jest
+
+  - To ensure ESLint recognizes your Jest globals (like `test` and `expect`), add the Jest plugin and configure it:
+
+  - **Install ESLint Jest Plugin:** `yarn add --dev eslint-plugin-jest`
+
+  - **Configuration File (`jest.config.cjs` or `jest.config.mjs`):** Ensure your Jest configuration matches the following:
+
+    - For `jest.config.mjs` ( (ES Module):
+
+      ```javascript
+      export default {
+        preset: 'ts-jest',
+        testEnvironment: 'node',
+        moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+        transform: {
+          '^.+\\.tsx?$': 'ts-jest',
+        },
+        testMatch: ['**/*.test.ts'],
+      }
+      
+      ```
+
+  - **Add or Update `esModuleInterop`:** Add the `esModuleInterop` option and set it to `true`.
+
+    ![Jest Test](docs/assets/jest-test.png)
+
+  ## Final Thoughts
 
   This guide provides a comprehensive setup for initializing a Vite TypeScript project with optional ESLint and Prettier configurations. Vite's speed and simplicity, combined with TypeScript's type safety, offer an excellent development experience.

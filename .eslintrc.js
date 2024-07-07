@@ -5,6 +5,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
   ],
+  env: {
+    'jest/globals': true,
+  },
   rules: {},
 }
