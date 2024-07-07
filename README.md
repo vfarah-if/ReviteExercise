@@ -2,6 +2,8 @@
 Test run the latest Typescript react, Storybook, And PlayWright other framework. Starting with a new way to instantiate a Typescript react application.
 
 ```bash
+npm create vite@latest
+or 
 npm create vite@latest revite-exercise -- --template vanilla-ts
 ```
 
