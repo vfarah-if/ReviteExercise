@@ -117,6 +117,12 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
     ![Jest Test](docs/assets/jest-test.png)
 
+  
+
+  # React JS Full Course 2024
+
+  Go through full video doing some of the work usig this template and taking in some of the cool bits - https://www.youtube.com/watch?v=lAFbKzO-fss
+
   ## Final Thoughts
 
   This guide provides a comprehensive setup for initializing a Vite TypeScript project with optional ESLint and Prettier configurations. Vite's speed and simplicity, combined with TypeScript's type safety, offer an excellent development experience.
