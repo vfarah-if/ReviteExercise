@@ -19,7 +19,7 @@ module.exports = {
   plugins: ['react-refresh'],
   settings: {
     react: {
-      version: 18.2,
+      version: 18.3,
     },
   },
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
