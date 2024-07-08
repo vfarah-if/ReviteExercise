@@ -121,7 +121,7 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
   # React JS Full Course 2024
 
-  Go through full video doing some of the work usig this template and taking in some of the cool bits - https://www.youtube.com/watch?v=lAFbKzO-fss
+  Go through full video doing some of the work using this template and taking in some of the cool bits - https://www.youtube.com/watch?v=lAFbKzO-fss
 
   ## Final Thoughts
 
