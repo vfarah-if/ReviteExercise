@@ -32,7 +32,7 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
   yarn add --dev prettier eslint-config-prettier eslint-plugin-prettier
   ```
 
-- Update your `.eslintrc.js` to include Prettier configuration:
+- Update your `.eslintrc.cjs` to include Prettier configuration:
 
   ```js
   module.exports = {
