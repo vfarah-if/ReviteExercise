@@ -9,6 +9,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+    'plugin:storybook/recommended',
   ],
   env: {
     'jest/globals': true,

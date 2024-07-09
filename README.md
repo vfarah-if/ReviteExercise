@@ -1,4 +1,6 @@
 # Revite React Typescript Exercise
+[TOC]
+
 Test run the latest Typescript react, Storybook, And PlayWright other framework. Starting with a new way to instantiate a Typescript react application.
 
 ```bash
@@ -67,11 +69,12 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
 - Updated example to see for a working base can be found [here](https://stackblitz.com/edit/vitejs-vite-jrsfbb?file=package.json&terminal=dev)
 
-  ## Testing with Jest
 
-  **Test-Driven Development** (TDD) is a software development approach that involves writing tests before writing the actual code. This methodology offers several advantages, which can significantly enhance the quality and maintainability of software. By prioritising testing and design upfront, TDD helps developers produce better code, reduce defects, and maintain a high level of productivity. Adopting TDD can lead to significant long-term benefits, making it a valuable practice for any development team.
+## Testing with Jest
 
-  ### Step-by-Step Guide
+**Test-Driven Development** (TDD) is a software development approach that involves writing tests before writing the actual code. This methodology offers several advantages, which can significantly enhance the quality and maintainability of software. By prioritising testing and design upfront, TDD helps developers produce better code, reduce defects, and maintain a high level of productivity. Adopting TDD can lead to significant long-term benefits, making it a valuable practice for any development team.
+
+### Step-by-Step Guide
 
 - **Install Jest and Related Packages:** Open your terminal in the project directory and run the following command to install Jest, along with TypeScript support and other necessary packages: `yarn add --dev jest @types/jest ts-jest`
 
@@ -117,6 +120,16 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
     ![Jest Test](docs/assets/jest-test.png)
 
-  ## Final Thoughts
+  
 
-  This guide provides a comprehensive setup for initializing a Vite TypeScript project with optional ESLint and Prettier configurations. Vite's speed and simplicity, combined with TypeScript's type safety, offer an excellent development experience.
+## Storybook
+
+Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation. It's open source and free. Learn more about it at https://storybook.js.org/
+
+```bash
+npx storybook@latest init
+```
+
+## Final Thoughts
+
+This guide provides a comprehensive setup for initializing a Vite TypeScript project with optional ESLint and Prettier configurations. Vite's speed and simplicity, combined with TypeScript's type safety, offer an excellent development experience.
