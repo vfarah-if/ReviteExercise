@@ -24,6 +24,7 @@ module.exports = {
   },
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   rules: {
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
       'warn',
