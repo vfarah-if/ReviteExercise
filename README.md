@@ -131,7 +131,13 @@ npx storybook@latest init
 
 ## Learn react in 10 minutes
 
-This video will be a quick start summarise the basics [here](https://www.youtube.com/watch?v=s2skans2dP4).
+This video will be a quick start summarise the basics [here](https://www.youtube.com/watch?v=s2skans2dP4). If you need more then jump to [1 hour more](https://www.youtube.com/watch?v=SqcY0GlETPk).
+
+![React life cycle](docs/assets/react-life-cycle.png)
+
+![Class and Function Lifecycles](docs/assets/class-vs-function-cycles.png)
+
+![Prop drilling with the Context Api](docs/assets/prop-drilling.png)
 
 ## React Testing Library
 
