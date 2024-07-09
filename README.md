@@ -101,7 +101,7 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
   - **Configuration File (`jest.config.cjs` or `jest.config.mjs`):** Ensure your Jest configuration matches the following:
 
-    - For `jest.config.mjs` ( (ES Module):
+    - For `jest.config.mjs`  (ES Module):
 
       ```javascript
       export default {
@@ -113,9 +113,8 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
         },
         testMatch: ['**/*.test.ts'],
       }
-      
       ```
-
+    
   - **Add or Update `esModuleInterop`:** Add the `esModuleInterop` option and set it to `true`.
 
     ![Jest Test](docs/assets/jest-test.png)
@@ -129,6 +128,14 @@ Storybook is a frontend workshop for building UI components and pages in isolati
 ```bash
 npx storybook@latest init
 ```
+
+## Learn react in 10 minutes
+
+This video will be a quick start summarise the basics [here](https://www.youtube.com/watch?v=s2skans2dP4).
+
+## React Testing Library
+
+Learn all about [react testing library](https://testing-library.com/docs/react-testing-library/intro). Watch a video on this [here](https://www.youtube.com/watch?v=JKOwJUM4_RM).
 
 ## Final Thoughts
 
