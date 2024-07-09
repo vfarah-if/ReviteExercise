@@ -6,7 +6,7 @@ function App() {
     <div>
       <h1>Ready to start internet tut!</h1>
       <UserProfile
-	  	
+        username="Jane Doe"
         age={null}
         isLoggedIn={null}
         favouriteFoods={['Sushi', 'Pizza']}
