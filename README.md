@@ -117,11 +117,11 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
     ![Jest Test](docs/assets/jest-test.png)
 
-  
-
   # React JS Full Course 2024
 
-  Go through full video doing some of the work using this template and taking in some of the cool bits - https://www.youtube.com/watch?v=lAFbKzO-fss
+- Start by getting a **10 minute introduction** to build up a skeleton of what you will do here https://www.youtube.com/watch?v=s2skans2dP4 which can lead onto the 40 minute one in more detail
+
+- Go through full video doing some of the work using this template and taking in some of the cool bits - https://www.youtube.com/watch?v=lAFbKzO-fss
 
   ## Final Thoughts
 

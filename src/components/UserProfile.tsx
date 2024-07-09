@@ -21,6 +21,7 @@ export const UserProfile = ({
     <div id="user-profile">
       <UserName userName={username} />
       <UserAge age={age} />
+      {/* Logical Operator */}
       {favouriteFoods && <UserFavouriteFoods favouriteFoods={favouriteFoods} />}
       <UserLoggedInStatus isLoggedIn={isLoggedIn} />
     </div>
