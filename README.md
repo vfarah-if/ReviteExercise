@@ -59,7 +59,13 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
   }
   ```
 
-  
+- Configure react: 
+
+  ```bash
+  yarn add --dev @types/react @types/react-dom @typescript-eslint/eslint-plugin @typescript-eslint/parser @vitejs/plugin-react typescript 
+  ```
+
+- Updated example to see for a working base can be found [here](https://stackblitz.com/edit/vitejs-vite-jrsfbb?file=package.json&terminal=dev)
 
   ## Testing with Jest
 
