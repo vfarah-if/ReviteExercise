@@ -12,17 +12,17 @@ export default {
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
   },
-  collectCoverage: true, 
+  collectCoverage: true,
   collectCoverageFrom: [
-    'src/**/*.{js,jsx,ts,tsx}', 
-    '!src/**/*.d.ts', 
-	'!src/**/*.test.ts', 
-	'!src/**/*.test.tsx', 
-	'!src/**/*.stories.ts', 
-	'!src/**/index.ts', 
-	'!src/**/main.tsx', 
+    'src/**/*.{js,jsx,ts,tsx}',
+    '!src/**/*.d.ts',
+    '!src/**/*.test.ts',
+    '!src/**/*.test.tsx',
+    '!src/**/*.stories.ts',
+    '!src/**/index.ts',
+    '!src/**/main.tsx',
   ],
-  coverageDirectory: 'coverage', 
+  coverageDirectory: 'coverage',
   coverageReporters: ['text', 'lcov'],
   coverageThreshold: {
     global: {

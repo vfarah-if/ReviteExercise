@@ -1,21 +1,22 @@
 # Revite React Typescript Exercise
+
 [TOC]
 
 Test run the latest Typescript react, Storybook, And PlayWright other framework. Starting with a new way to instantiate a Typescript react application.
 
 ```bash
 npm create vite@latest
-or 
+or
 npm create vite@latest revite-exercise -- --template vanilla-ts
 ```
 
-- This command creates a new [Vite](https://vitejs.dev/guide/) project named `my-vite-project` using the *TypeScript* template.
+- This command creates a new [Vite](https://vitejs.dev/guide/) project named `my-vite-project` using the _TypeScript_ template.
 
 - Move the code out of the folder into the root of the git repository
 
   ```bash
-  yarn install 
-  # or 
+  yarn install
+  # or
   npm install
   npm run dev
   ```
@@ -38,18 +39,17 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
   ```js
   module.exports = {
-      parser: '@typescript-eslint/parser',
-      extends: [
-          'eslint:recommended',
-          'plugin:@typescript-eslint/recommended',
-          'prettier',
-          'plugin:prettier/recommended'
-      ],
-      rules: {
-          // Customize your rules
-      }
-  };
-  
+    parser: '@typescript-eslint/parser',
+    extends: [
+      'eslint:recommended',
+      'plugin:@typescript-eslint/recommended',
+      'prettier',
+      'plugin:prettier/recommended',
+    ],
+    rules: {
+      // Customize your rules
+    },
+  }
   ```
 
 - Create a `.prettierrc` file to customize Prettier settings:
@@ -61,14 +61,13 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
   }
   ```
 
-- Configure react: 
+- Configure react:
 
   ```bash
-  yarn add --dev @types/react @types/react-dom @typescript-eslint/eslint-plugin @typescript-eslint/parser @vitejs/plugin-react typescript 
+  yarn add --dev @types/react @types/react-dom @typescript-eslint/eslint-plugin @typescript-eslint/parser @vitejs/plugin-react typescript
   ```
 
 - Updated example to see for a working base can be found [here](https://stackblitz.com/edit/vitejs-vite-jrsfbb?file=package.json&terminal=dev)
-
 
 ## Testing with Jest
 
@@ -82,15 +81,14 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
   ```javascript
   module.exports = {
-      preset: 'ts-jest',
-      testEnvironment: 'node',
-      moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-      transform: {
-          '^.+\\.tsx?$': 'ts-jest',
-      },
-      testMatch: ['**/*.test.ts'],
-  };
-  
+    preset: 'ts-jest',
+    testEnvironment: 'node',
+    moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+    transform: {
+      '^.+\\.tsx?$': 'ts-jest',
+    },
+    testMatch: ['**/*.test.ts'],
+  }
   ```
 
 - Optional: Configure ESLint for Jest
@@ -101,7 +99,7 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
   - **Configuration File (`jest.config.cjs` or `jest.config.mjs`):** Ensure your Jest configuration matches the following:
 
-    - For `jest.config.mjs`  (ES Module):
+    - For `jest.config.mjs` (ES Module):
 
       ```javascript
       export default {
@@ -114,11 +112,10 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
         testMatch: ['**/*.test.ts'],
       }
       ```
-    
+
   - **Add or Update `esModuleInterop`:** Add the `esModuleInterop` option and set it to `true`.
 
     ![Jest Test](docs/assets/jest-test.png)
-
 
 ## Storybook
 
@@ -147,18 +144,16 @@ This video will be a quick start summarise the basics [here](https://www.youtube
 
 ## React Testing Library
 
-Learn all about [react testing library](https://testing-library.com/docs/react-testing-library/intro). Watch a video on this [here](https://www.youtube.com/watch?v=JKOwJUM4_RM). 
+Learn all about [react testing library](https://testing-library.com/docs/react-testing-library/intro). Watch a video on this [here](https://www.youtube.com/watch?v=JKOwJUM4_RM).
 
-- Firstly, I structure the tests to be **readable** from the *describe* to the test always repeating the what this should be doing before adding the test
-- Secondly, I always test what the **user can see** and the behaviour, favouring *accessibility* and *simplicity* of testing. You should never have complicated selectors, always favour text, semantic html which translates to roles and otherbasic formats around getting to to the component. 
+- Firstly, I structure the tests to be **readable** from the _describe_ to the test always repeating the what this should be doing before adding the test
+- Secondly, I always test what the **user can see** and the behaviour, favouring _accessibility_ and _simplicity_ of testing. You should never have complicated selectors, always favour text, semantic html which translates to roles and otherbasic formats around getting to to the component.
 - The real world is a lot more complicated and so you have a [cheat sheet](https://testing-library.com/docs/react-testing-library/cheatsheet) which can help you to create a [priority](https://testing-library.com/docs/queries/about#priority) order for how I get at content I am testing, based on the guiding principles. In summary this **Queries Accessible to Everyone**, then by **Semantic Queries** HTML5 and ARIA. Data dash or test id's should be a no go scenario where you have such a complicated scenario.
 - Unit tests are meant to test one single unit, so **mock other components** being added and test the single unit only. Use Storybook as your scenario driven mechanism and business mechanism for why this should exist and visually test and verify what you are building.
 
-	![Jest Test Structure](docs/assets/jest-test.png)
+  ![Jest Test Structure](docs/assets/jest-test.png)
 
-- 
-
-	![Jest Coverage](docs/assets/jest-coverage.png)
+- ![Jest Coverage](docs/assets/jest-coverage.png)
 
 ## Final Thoughts
 
