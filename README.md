@@ -115,8 +115,6 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
   - **Add or Update `esModuleInterop`:** Add the `esModuleInterop` option and set it to `true`.
 
-    ![Jest Test](docs/assets/jest-test.png)
-
 ## Storybook
 
 Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation. It's open source and free. Learn more about it at https://storybook.js.org/

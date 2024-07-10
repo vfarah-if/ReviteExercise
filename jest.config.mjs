@@ -9,9 +9,6 @@ export default {
   moduleNameMapper: {
     '\\.css$': 'identity-obj-proxy',
   },
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest',
-  },
   collectCoverage: true,
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
