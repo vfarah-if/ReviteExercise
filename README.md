@@ -119,7 +119,6 @@ npm create vite@latest revite-exercise -- --template vanilla-ts
 
     ![Jest Test](docs/assets/jest-test.png)
 
-  
 
 ## Storybook
 
@@ -127,6 +126,13 @@ Storybook is a frontend workshop for building UI components and pages in isolati
 
 ```bash
 npx storybook@latest init
+```
+
+Add visual testing to this using Chromatic for visual testing.
+
+```bash
+yarn add --dev chromatic
+npx chromatic --project-token=chpt_a4940aa96fc3a77
 ```
 
 ## Learn react in 10 minutes
@@ -141,7 +147,18 @@ This video will be a quick start summarise the basics [here](https://www.youtube
 
 ## React Testing Library
 
-Learn all about [react testing library](https://testing-library.com/docs/react-testing-library/intro). Watch a video on this [here](https://www.youtube.com/watch?v=JKOwJUM4_RM).
+Learn all about [react testing library](https://testing-library.com/docs/react-testing-library/intro). Watch a video on this [here](https://www.youtube.com/watch?v=JKOwJUM4_RM). 
+
+- Firstly, I structure the tests to be **readable** from the *describe* to the test always repeating the what this should be doing before adding the test
+- Secondly, I always test what the **user can see** and the behaviour, favouring *accessibility* and *simplicity* of testing. You should never have complicated selectors, always favour text, semantic html which translates to roles and otherbasic formats around getting to to the component. 
+- The real world is a lot more complicated and so you have a [cheat sheet](https://testing-library.com/docs/react-testing-library/cheatsheet) which can help you to create a [priority](https://testing-library.com/docs/queries/about#priority) order for how I get at content I am testing, based on the guiding principles. In summary this **Queries Accessible to Everyone**, then by **Semantic Queries** HTML5 and ARIA. Data dash or test id's should be a no go scenario where you have such a complicated scenario.
+- Unit tests are meant to test one single unit, so **mock other components** being added and test the single unit only. Use Storybook as your scenario driven mechanism and business mechanism for why this should exist and visually test and verify what you are building.
+
+	![Jest Test Structure](docs/assets/jest-test.png)
+
+- 
+
+	![Jest Coverage](docs/assets/jest-coverage.png)
 
 ## Final Thoughts
 

@@ -20,6 +20,7 @@ export default {
 	'!src/**/*.test.tsx', 
 	'!src/**/*.stories.ts', 
 	'!src/**/index.ts', 
+	'!src/**/main.tsx', 
   ],
   coverageDirectory: 'coverage', 
   coverageReporters: ['text', 'lcov'],
