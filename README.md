@@ -130,6 +130,8 @@ yarn add --dev chromatic
 npx chromatic --project-token=chpt_a4940aa96fc3a77
 ```
 
+![Storybook](docs/assets/storybook.png)
+
 ## Learn react in 10 minutes
 
 This video will be a quick start summarise the basics [here](https://www.youtube.com/watch?v=s2skans2dP4). If you need more then jump to [1 hour more](https://www.youtube.com/watch?v=SqcY0GlETPk).
