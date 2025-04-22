@@ -142,6 +142,9 @@ This video will be a quick start summarise the basics [here](https://www.youtube
 
 ![Prop drilling with the Context Api](docs/assets/prop-drilling.png)
 
+- Finally setting up an ideal project folder structure is very nicely explained here within this [video](https://www.youtube.com/watch?v=UUga4-z7b6s).
+- Building react using solid principles to develop better code is very nicely explained with this video.
+
 ## React Testing Library
 
 Learn all about [react testing library](https://testing-library.com/docs/react-testing-library/intro). Watch a video on this [here](https://www.youtube.com/watch?v=JKOwJUM4_RM).
@@ -153,7 +156,7 @@ Learn all about [react testing library](https://testing-library.com/docs/react-t
 
   ![Jest Test Structure](docs/assets/jest-test.png)
 
-- ![Jest Coverage](docs/assets/jest-coverage.png)
+  ![Jest Coverage](docs/assets/jest-coverage.png)
 
 ## Final Thoughts
 
